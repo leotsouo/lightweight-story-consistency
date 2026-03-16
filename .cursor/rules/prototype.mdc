@@ -1,0 +1,21 @@
+---
+description: Build a product prototype for 輕量智敘
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+This project is a frontend-only product prototype for a narrative consistency checking platform.
+
+Follow docs/product_spec.md as the primary requirement source.
+Use docs/reference.pdf as supporting reference only.
+
+Important rules:
+- Build a demo-ready web app prototype, not a real AI backend.
+- Use mock data only.
+- Prioritize UI completeness and product presentation.
+- The product is not a generic business dashboard; it is an AI-assisted narrative consistency analysis console.
+- Include pages for dashboard, upload/project management, conflict results, character consistency, knowledge graph view, and report export.
+- Use Next.js + Tailwind CSS.
+- Prefer reusable components and clean folder structure.
+- Before coding, provide a concise implementation plan.
